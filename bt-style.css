@@ -1,0 +1,232 @@
+body {
+	color: #000;
+    background-color: #E9ECCF;
+	font-size: medium;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+
+.cssNote
+{
+font: 0.875em/1.25em Arial, Helvetica, sans-serif;
+margin: 4px;
+padding: 4px;
+}
+
+.cssText {
+	font-size: smaller;
+}
+
+.cssWarning {
+color: #ff0000;
+}
+
+.cssSuccess {
+color: #008000;
+}
+
+
+img.floatLeft { 
+    float: left; 
+    margin: 4px; 
+}
+
+img.floatRight { 
+    float: right; 
+    margin: 4px; 
+}
+
+
+.cssLink {
+  padding: 4px;
+  margin: 8px;
+}
+
+.cssLink ul {
+  padding: 4px;
+  margin: 8px;
+}
+
+.cssLink li {
+  padding: 4px;
+  margin: 2px;
+}
+
+
+div.floatLeft { 
+    float: left; 
+    margin: 4px; 
+}
+
+div.floatRight { 
+    float: right; 
+    margin: 4px; 
+}
+
+.btnBlue {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: bold;
+color: #FFFFFF;
+background-color:navy;
+width: auto;
+height: auto;
+border: 1px solid #CCCCCC;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-right: 6px;
+padding-left: 6px;
+text-decoration:none;
+}
+
+.cssWork {
+    display : inline;
+	font-size: smaller;
+}
+
+.cssQuizKey{
+  border: 1px solid #999;
+  overflow: auto;
+  background: #FFFFDD;
+  padding: 12px;
+  margin: 1em 7px 1em 7px;
+}
+
+.cssQuizKey pre {
+  margin: 0px;
+  padding: 0px;
+}
+
+.cssQuizKeyHide{
+ display : none;
+}
+
+.frame-style-article {
+	background-color	:	#7190e0;
+	border				:	1px #1524ec solid;
+	padding				:	2px;
+}
+
+.container-style {
+	background-color	:	White; 
+	border				:	1px #1f11ec solid;
+	padding-top			:	5px;
+	padding-right		:	5px;
+	padding-left		:	5px;
+	padding-bottom		:	5px;
+	overflow			:	Auto;
+	overflow-x			:	Auto;
+	overflow-y			:	Auto;
+}
+
+.pageTitle {
+	color				:	White;
+	font-size			:	11pt;
+	font-weight			:   bold;
+	padding-left		:	5px;
+	padding-top			:	2px;
+	padding-bottom		:	2px;
+}
+
+.pageHeader {
+	font-weight			:	bold;
+	font-size			:	13pt;
+	color				:	#1c0edf;
+}
+
+
+pre.script {
+	font-size			:	9pt;
+	padding				:	10px;
+	background-color	:	#f7f7e6;
+	border-style		:	dashed;
+	border-width		:	1px;
+}
+
+div.script {
+	font-size			:	9pt;
+	padding				:	2px;
+	background-color	:	#f7f7e6;
+	border-style		:	dashed;
+	border-width		:	1px;
+}
+
+
+.imageLink a:hover, a:active { outline:0; }
+
+.button {
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+border: 1px solid #fff;
+background-color: transparent;
+font-family: T6, "Gotham SSm A", "Gotham SSm B", Arial, sans-serif;
+font-weight: 400;
+font-size: 1.4rem;
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;
+display: inline-block;
+text-align: center;
+padding: 10px 20px;
+min-width: 133px;
+}
+
+.button:hover, .button:active {
+background-color: #fff;
+color: #353535;
+text-decoration: none; }
+
+.button.blue-button {
+min-width: 180px;
+background-color: #008ca1;
+border: none; }
+
+.button.blue-button:hover, .button.blue-button:active {
+  background-color: #40a9b9;
+  color: #fff; }
+
+.button.green-button {
+background-color: #799d3e;
+border: none; }
+
+.button.green-button:hover, .button.green-button:active {
+  background-color: #8dbd3e;
+  color: #fff; }
+.button.disabled {
+background-color: #d4d4d4;
+cursor: default; }
+.button.disabled:hover, .button.disabled:active {
+  background-color: #d4d4d4; }
+
+
+/* Styles for Navigation */
+
+.nav-container { 
+    width:420px; 
+    overflow:auto;
+	background-color:#FFEEDD;
+	border: 1px solid #FF8855;
+	padding: 5px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+                          
+.nav-container a { outline:none; }
+                          
+.nav-list { list-style: none; padding:0; margin:0; font-family:Georgia, Times, serif; font-size:15px; }
+.nav-list li {  }
+.nav-list ul { list-style: none; padding:0; margin:0; }
+.nav-list ul li {  }
+.nav-list ul li a { display:block; text-decoration:none; color:#000000; line-height:30px;
+	                border-bottom-style:solid; border-bottom-width:1px; border-bottom-color:#CCCCCC; padding-left:10px; cursor:pointer; }
+.nav-list ul li a:hover { color:#FFFFFF; background-image:url(https://www.bangtech.com/share/mm/web/hover.png); background-repeat:repeat-x; }
+.nav-list ul li a strong { margin-right:10px; }
+
+.nav-indicator { line-height:20px; background-image:url(https://www.bangtech.com/share/mm/web/nav-indicator-bg.png); background-repeat:repeat-x; color:#FFFFFF; text-indent:20px; }
+
+.nav-arrow
+{
+ float:right;
+}
